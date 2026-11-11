@@ -17,13 +17,13 @@
   AssertionError [ERR_ASSERTION]: Expected values to be strictly equal: calculateTotal menjumlah item.price tanpa quantity; ada var discount tidak terpakai.| calculateTotal tidak mengalikan harga dengan jumlah barang. |cart.reduce((total, item) => total + item.price * item.quantity, 0);dan hapus var discount = 0;. | npm run test:once ℹ tests 7 ℹ suites 0 ℹ pass 7 ℹ fail 0 |
 
 ## B. Hasil pengujian
-- Jumlah pengujian sebelum perbaikan:
-- Jumlah pengujian berhasil setelah perbaikan:
-- Catatan perubahan pada fungsi yang diperiksa:
+- Jumlah pengujian sebelum perbaikan:Jumlah pengujian sebelum perbaikan: 7 pengujian, 5 berhasil, 2 gagal
+- Jumlah pengujian berhasil setelah perbaikan:Jumlah pengujian berhasil setelah perbaikan: 7 dari 7 berhasil
+- Catatan perubahan pada fungsi yang diperiksa:Catatan perubahan pada fungsi yang diperiksa: calculateTotal diperbaiki agar mengalikan price * quantity; addProduct sudah benar dan tidak diubah.
 
 ## C. Kualitas kode
-- Temuan sebelum perbaikan:
-- Perbaikan yang dilakukan:
+- Temuan sebelum perbaikan: Temuan sebelum perbaikan: Biome melaporkan 1 error format pada public/app.js dan 1 warning lint/correctness/noUnusedVariables pada src/cart.js (discount).
+- Perbaikan yang dilakukan: Perbaikan yang dilakukan: menghapus variabel discount yang tidak terpakai dan merapikan format dengan npx biome check --write public/app.js src/cart.js.
 - Hasil pemeriksaan ulang:
 
 ## D. Git
