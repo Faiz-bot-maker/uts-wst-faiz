@@ -1,9 +1,9 @@
 # Laporan UTS Web Software Tools
 
-**Nama:**
-**Nomor Induk Mahasiswa:**
-**Kelas:**
-**Tanggal:**
+**Nama: Muhammad Faiz Fathurahman**
+**Nomor Induk Mahasiswa: 12523032**
+**Kelas:A**
+**Tanggal:11/11/2026**
 
 ## A. Bukti pemeriksaan masalah
 | Masalah | Alat yang digunakan | Bukti pemeriksaan | Perkiraan penyebab | Perbaikan | Hasil setelah perbaikan |
