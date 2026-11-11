@@ -24,7 +24,7 @@
 ## C. Kualitas kode
 - Temuan sebelum perbaikan: Temuan sebelum perbaikan: Biome melaporkan 1 error format pada public/app.js dan 1 warning lint/correctness/noUnusedVariables pada src/cart.js (discount).
 - Perbaikan yang dilakukan: Perbaikan yang dilakukan: menghapus variabel discount yang tidak terpakai dan merapikan format dengan npx biome check --write public/app.js src/cart.js.
-- Hasil pemeriksaan ulang:
+- Hasil pemeriksaan ulang:npm run quality:check tidak menemukan error/warning.
 
 ## D. Git
 - Branch (jika membuat):
@@ -38,4 +38,4 @@
 - Cara memeriksa apakah saran tersebut benar:
 
 ## F. Refleksi singkat
-- Satu pelajaran paling penting dari ujian ini:
+- Satu pelajaran paling penting dari ujian ini:membaca pesan error di Console dan status pada Network jauh lebih cepat daripada menebak-nebak seperti dukun.
